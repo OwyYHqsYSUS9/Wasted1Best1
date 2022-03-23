@@ -1,7 +1,6 @@
 game.StarterGui:SetCore("SendNotification",  {
  Title = "WastedBest";
  Text = "Thanks for using the script!";
- Icon = "http://www.roblox.com/asset/?id=1521636846";
  Duration = 12;
  Callback = NotificationBindable;
 })
