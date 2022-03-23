@@ -19,5 +19,5 @@ elseif game.PlaceId == 6766156863 then -- Strongman Simulator
 elseif game.PlaceId == 8357510970 then -- Anime Punching Simulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/Wasted1Best1/main/Anime%20Punching%20Simulator", true))()
 else
-	game.Players.LocalPlayer:Kick("Game script is patched and/or not supported \n WastedBest2020")
+	game.Players.LocalPlayer:Kick("\n\n Game script is patched and/or not supported \n WastedBest2020")
 end
