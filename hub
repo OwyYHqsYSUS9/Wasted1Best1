@@ -1,3 +1,11 @@
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "WastedBestHub";
+ Text = "Thanks for using WastedBest!";
+ Icon = "http://www.roblox.com/asset/?id=1521636846";
+ Duration = 5313213131313121232312313;
+ Callback = NotificationBindable;
+})
+
 if game.PlaceId == 8807832754 then -- Tapper Simulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/WastedBest/main/Tapper%20Simulator", true))()
 elseif game.PlaceId == 8540346411 then -- Rebirth Champions X
