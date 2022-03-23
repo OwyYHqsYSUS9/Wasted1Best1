@@ -18,4 +18,6 @@ elseif game.PlaceId == 6766156863 then -- Strongman Simulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/Wasted1Best1/main/Strongman%20Simulator", true))()
 elseif game.PlaceId == 8357510970 then -- Anime Punching Simulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/Wasted1Best1/main/Anime%20Punching%20Simulator", true))()
+else
+	game.Players.LocalPlayer:Kick("Game not found in database.")
 end
