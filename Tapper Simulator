@@ -1,0 +1,72 @@
+local Player = game:GetService("Players").LocalPlayer
+local egg = {}
+for i, v in pairs(game:GetService("Workspace").Resources.Eggs:GetChildren()) do
+    if not table.find(egg,v.Name) then
+        table.insert(egg,v.Name)
+    end
+end
+
+local library = loadstring(game:HttpGetAsync("https://pastebin.com/raw/znibQh36"))()
+local Window = library:CreateWindow("Tapper Simulator｜1.2")
+local FFolder = Window:AddFolder("Farm")
+local TFolder = Window:AddFolder("Teleport")
+local OFolder = Window:AddFolder("Other")
+
+FFolder:AddToggle({
+    text = "Auto Click", 
+    callback = function(v)
+        _G.autofarm = v
+        game:GetService("RunService").RenderStepped:Connect(function()
+            while wait() do
+            if not _G.autofarm then break end
+            local Target = game:GetService("ReplicatedStorage").Packages.Knit.Services.ClickService.RF.Click;
+            Target:InvokeServer();
+        end
+    end)
+end})
+
+FFolder:AddToggle({
+    text = "Auto Open Egg", 
+    callback = function(v) 
+        _G.openEgg = v 
+        game:GetService("RunService").RenderStepped:Connect(function()
+            while wait() do
+            if not _G.openEgg then break end
+            local string_1 = selectedEgg;
+            local number_1 = 3;
+            local Target = game:GetService("ReplicatedStorage").Packages.Knit.Services.EggService.RF.PurchaseEgg;
+            Target:InvokeServer(string_1, number_1);
+        end
+    end)
+end})
+
+FFolder:AddList({
+    text = "Select Egg", 
+    values = egg, 
+    callback = function(value) 
+   		selectedEgg = value
+end})
+
+for i, v in pairs(game:GetService("Workspace").Resources.Teleport:GetChildren()) do
+TFolder:AddButton({
+    text = v.name,
+    callback = function()
+            Player.Character.HumanoidRootPart.CFrame = v.CFrame
+        end
+    })
+end
+
+OFolder:AddButton({
+    text = "Claim Daily",
+    callback = function()
+        local args = {
+        [1] = "Daily Rewards"}
+        game:GetService("ReplicatedStorage").Packages.Knit.Services.ChestService.RF.ClaimChest:InvokeServer(unpack(args))
+end})
+OFolder:AddBind({
+    text = "Toggle GUI", 
+    key = "LeftControl", 
+    callback = function() 
+        library:Close()
+end})
+library:Init()
