@@ -1,10 +1,3 @@
-game.StarterGui:SetCore("SendNotification",  {
- Title = "WastedBest";
- Text = "Thanks for using the script!";
- Duration = 12;
- Callback = NotificationBindable;
-})
-
 if game.PlaceId == 8807832754 then -- Tapper Simulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/WastedBest/main/Tapper%20Simulator", true))()
 elseif game.PlaceId == 8540346411 then -- Rebirth Champions X
