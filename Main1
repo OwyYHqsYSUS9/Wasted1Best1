@@ -1,0 +1,7 @@
+if game.PlaceId == 8807832754 then -- Tapper Simulator
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/TapperSim", true))()
+elseif game.PlaceId == 8540346411 then -- Rebirth Champions X
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/rebirthchampx", true))()
+else
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/AnimeDimensions", true))()
+end
