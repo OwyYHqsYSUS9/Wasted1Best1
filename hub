@@ -12,6 +12,8 @@ elseif game.PlaceId == 8357510970 then -- Anime Punching Simulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/Wasted1Best1/main/Anime%20Punching%20Simulator", true))()
 elseif game.PlaceId == 8683097129 then -- Clicking Simulator X
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/Wasted1Best1/main/Clicking%20Simulator%20X", true))()
+elseif game.PlaceId == 7363174769 then -- Deliveryman Simulator
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/Wasted1Best1/main/Delivery%20Simulator", true))()
 else
 	game.Players.LocalPlayer:Kick("\n\nGame script is patched and/or not supported \n WastedBest2020")
 end
