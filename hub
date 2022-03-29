@@ -1,7 +1,7 @@
 if game.PlaceId == 8807832754 then -- Tapper Simulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/WastedBest/main/Tapper%20Simulator", true))()
 elseif game.PlaceId == 8540346411 then -- Rebirth Champions X
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/rebirthchampx", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/Wasted1Best1/main/Rebirth%20Champions%20X", true))()
 elseif game.PlaceId == 2986677229 then -- Giant Simulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/WastedBest/main/Giant%20Simulator", true))()
 elseif game.PlaceId == 7728848215 then -- Slashing Simulator
