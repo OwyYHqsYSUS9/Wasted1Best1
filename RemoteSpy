@@ -35,7 +35,6 @@ local ToolTip = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 
 --Properties:
-
 SimpleSpy2.Name = "SimpleSpy2"
 SimpleSpy2.ResetOnSpawn = false
 
