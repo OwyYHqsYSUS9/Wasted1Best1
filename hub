@@ -14,7 +14,6 @@ elseif game.PlaceId == 8683097129 then -- Clicking Simulator X
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/Wasted1Best1/main/Clicking%20Simulator%20X", true))()
 elseif game.PlaceId == 7363174769 then -- Deliveryman Simulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/Wasted1Best1/main/Delivery%20Simulator", true))()
-else
 elseif game.PlaceId == 6204781149 then -- Jackpot Joy 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/Wasted1Best1/main/JackpotJoy", true))()
 else
