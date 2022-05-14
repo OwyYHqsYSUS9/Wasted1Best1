@@ -3,7 +3,7 @@ if game.PlaceId == 2986677229 then -- Giant Simulator
 elseif game.PlaceId == 7728848215 then -- Slashing Simulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/WastedBest/main/Slashing%20Simulator", true))()
     elseif game.PlaceId == 8750997647 then -- TEST
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/WastedBest/main/Slashing%20Simulator", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/Main", true))()
 elseif game.PlaceId == 6766156863 then -- Strongman Simulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/Wasted1Best1/main/Strongman%20Simulator", true))()
 else
