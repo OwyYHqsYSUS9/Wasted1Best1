@@ -1,21 +1,9 @@
-if game.PlaceId == 8807832754 then -- Tapper Simulator
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/WastedBest/main/Tapper%20Simulator", true))()
-elseif game.PlaceId == 8540346411 then -- Rebirth Champions X
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/rebirthchampx", true))()
-elseif game.PlaceId == 2986677229 then -- Giant Simulator
+if game.PlaceId == 2986677229 then -- Giant Simulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/WastedBest/main/Giant%20Simulator", true))()
 elseif game.PlaceId == 7728848215 then -- Slashing Simulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/WastedBest/main/Slashing%20Simulator", true))()
 elseif game.PlaceId == 6766156863 then -- Strongman Simulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/Wasted1Best1/main/Strongman%20Simulator", true))()
-elseif game.PlaceId == 8357510970 then -- Anime Punching Simulator
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/Wasted1Best1/main/Anime%20Punching%20Simulator", true))()
-elseif game.PlaceId == 8683097129 then -- Clicking Simulator X
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/Wasted1Best1/main/Clicking%20Simulator%20X", true))()
-elseif game.PlaceId == 7363174769 then -- Deliveryman Simulator
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/Wasted1Best1/main/Delivery%20Simulator", true))()
-elseif game.PlaceId == 6204781149 then -- Jackpot Joy 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/OwyYHqsYSUS9/Wasted1Best1/main/JackpotJoy", true))()
 else
-	game.Players.LocalPlayer:Kick("\n\nGame script Currently not working/or not supported \n WastedBest2020")
+	game.Players.LocalPlayer:Kick("\n\nGame not supported \n WastedBest2020")
 end
